@@ -1,0 +1,47 @@
+# Awakening as an Enhancement Wrapper
+
+In the `DotA_Awaken` project, the **Awakening system** is a standardized way to "wrap" and scale custom gameplay enhancements based on difficulty.
+
+## The "Wrapper" Concept
+
+Instead of having hardcoded values, your Lua-replicated ability should expose its logic to `modifier_base_awakening`. This allows the game to dynamically adjust the "level" of your enhancements.
+
+### 1. Define the Enhancement Level
+Enhancements typically scale based on `GameRules:GetCustomGameDifficulty()`.
+
+### 2. Implement the Wrapper
+```lua
+modifier_custom_awaken = class(modifier_base_awakening)
+
+-- List which special values are "awakenable" (enhanced)
+modifier_custom_awaken.awaken_values = {
+    bonus_damage = true,
+    aoe_radius = true,
+}
+
+function modifier_custom_awaken:GetModifierOverrideAbilitySpecialValue(params)
+    if params.ability == self:GetAbility() then
+        local specialValue = params.ability_special_value
+        local level = GameRules:GetCustomGameDifficulty()
+        
+        -- Get the original value from KV
+        local baseValue = params.ability:GetLevelSpecialValueNoOverride(specialValue, params.ability_special_level)
+        
+        -- Wrap the enhancement logic
+        if specialValue == "bonus_damage" then
+             return baseValue + (level * 100) -- Example linear scaling
+        elseif specialValue == "aoe_radius" then
+             return baseValue + (level >= 2 and 150 or 0) -- Example milestone enhancement
+        end
+    end
+end
+```
+
+## Benefits of using the Awakening Wrapper
+- **Consistency**: All hero enhancements are managed through a unified system.
+- **Dynamic Scaling**: Values update automatically if difficulty changes.
+- **Modularity**: You can add or remove enhancements by simply editing the `awaken_values` table and the override logic.
+
+## Best Practices
+- **KV Alignment**: Ensure the keys in `awaken_values` match the keys in your `npc_abilities_custom.txt`.
+- **Thresholds**: Use game difficulty levels (0, 1, 2+) to unlock strictly new *mechanisms* (e.g., adding a stun at level 2) rather than just scaling numbers.

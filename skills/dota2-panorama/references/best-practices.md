@@ -1,0 +1,34 @@
+# Dota 2 Panorama Best Practices
+
+## Project Structure
+
+- `layout/custom_game/`: All XML files.
+- `styles/custom_game/`: All CSS files.
+- `scripts/custom_game/`: All JS files.
+- `custom_ui_manifest.xml`: The configuration file that loads your custom UI.
+
+## Performance & Optimization
+
+- **Hittest Awareness**: Set `hittest="false"` on all panels that don't need to capture mouse clicks (e.g., labels, background panels). This reduces the overhead of mouse event processing.
+- **Dialog Variables**: Use `SetDialogVariable` instead of directly setting `.text` property for frequently updating strings. It's more efficient.
+- **Panel Pooling**: For large lists, reuse panels or use `DeleteAsync` properly.
+- **Event Unsubscribing**: While rare in Panorama, be careful with continuous schedules.
+
+## Architecture
+
+- **Manifest Entry**: Register your layout in `custom_ui_manifest.xml` using `<CustomUIElement type="..." layoutfile="..." />`.
+- **Snippet-based Lists**: For dynamic lists (like shops or leaderboards), use snippets.
+- **Common Logic**: Create a `common.js` for shared functions and include it in your layout files.
+- **Modular CSS**: Break styles into smaller files (e.g., `shop.css`, `hud.css`) and include them only where needed.
+
+## Debugging
+
+- Use `$.Msg()` to log to the console.
+- Open the Panorama Debugger in-game (`F6` or `cl_panorama_script_help` in console) to inspect the panel tree and CSS live.
+
+## Localization
+
+Always use `#` prefixes for text and define the translations in `resource/addon_english.txt` and `resource/addon_schinese.txt`.
+Example:
+XML: `<Label text="#shop_title" />`
+Addon: `"shop_title" "Magic Shop"`
