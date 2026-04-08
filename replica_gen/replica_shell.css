@@ -1,0 +1,411 @@
+.ReplicaHost {
+    width: 100%;
+    height: 100%;
+}
+
+.ReplicaCanvas {
+    width: 1920px;
+    height: 1080px;
+    horizontal-align: center;
+    vertical-align: center;
+}
+
+.ReplicaNode_bg_overlay {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.ReplicaNode_main_panel {
+    margin-left: 260px;
+    margin-top: 40px;
+    width: 1400px;
+    height: 1000px;
+}
+
+.ReplicaNode_summary_card {
+    margin-left: 320px;
+    margin-top: 70px;
+    width: 1280px;
+    height: 220px;
+}
+
+.ReplicaNode_result_title {
+    margin-left: 780px;
+    margin-top: 88px;
+    width: 360px;
+    height: 84px;
+}
+
+.ReplicaNode_stage_name {
+    margin-left: 560px;
+    margin-top: 182px;
+    width: 800px;
+    height: 44px;
+}
+
+.ReplicaNode_remain_hp {
+    margin-left: 560px;
+    margin-top: 238px;
+    width: 300px;
+    height: 36px;
+}
+
+.ReplicaNode_rating_container {
+    margin-left: 880px;
+    margin-top: 238px;
+    width: 480px;
+    height: 36px;
+}
+
+.ReplicaNode_rating_label {
+    margin-left: 892px;
+    margin-top: 244px;
+    width: 70px;
+    height: 24px;
+}
+
+.ReplicaNode_rating_stars {
+    margin-left: 970px;
+    margin-top: 244px;
+    width: 170px;
+    height: 24px;
+}
+
+.ReplicaNode_rating_desc {
+    margin-left: 1148px;
+    margin-top: 244px;
+    width: 200px;
+    height: 24px;
+}
+
+.ReplicaNode_damage_panel {
+    margin-left: 320px;
+    margin-top: 310px;
+    width: 1280px;
+    height: 300px;
+}
+
+.ReplicaNode_damage_title {
+    margin-left: 340px;
+    margin-top: 328px;
+    width: 180px;
+    height: 34px;
+}
+
+.ReplicaNode_row1 {
+    margin-left: 340px;
+    margin-top: 370px;
+    width: 1240px;
+    height: 50px;
+}
+
+.ReplicaNode_row1_avatar {
+    margin-left: 410px;
+    margin-top: 375px;
+    width: 42px;
+    height: 42px;
+}
+
+.ReplicaNode_row1_rank {
+    margin-left: 350px;
+    margin-top: 380px;
+    width: 50px;
+    height: 30px;
+}
+
+.ReplicaNode_row1_name {
+    margin-left: 465px;
+    margin-top: 380px;
+    width: 250px;
+    height: 30px;
+}
+
+.ReplicaNode_row1_dmg {
+    margin-left: 1110px;
+    margin-top: 380px;
+    width: 150px;
+    height: 30px;
+}
+
+.ReplicaNode_row1_mvp {
+    margin-left: 1270px;
+    margin-top: 380px;
+    width: 90px;
+    height: 30px;
+}
+
+.ReplicaNode_row1_bar_bg {
+    margin-left: 730px;
+    margin-top: 388px;
+    width: 360px;
+    height: 14px;
+}
+
+.ReplicaNode_row1_bar_fill {
+    margin-left: 730px;
+    margin-top: 388px;
+    width: 320px;
+    height: 14px;
+}
+
+.ReplicaNode_row2 {
+    margin-left: 340px;
+    margin-top: 424px;
+    width: 1240px;
+    height: 50px;
+}
+
+.ReplicaNode_row2_avatar {
+    margin-left: 410px;
+    margin-top: 429px;
+    width: 42px;
+    height: 42px;
+}
+
+.ReplicaNode_row2_rank {
+    margin-left: 350px;
+    margin-top: 434px;
+    width: 50px;
+    height: 30px;
+}
+
+.ReplicaNode_row2_name {
+    margin-left: 465px;
+    margin-top: 434px;
+    width: 250px;
+    height: 30px;
+}
+
+.ReplicaNode_row2_dmg {
+    margin-left: 1110px;
+    margin-top: 434px;
+    width: 150px;
+    height: 30px;
+}
+
+.ReplicaNode_row2_bar_bg {
+    margin-left: 730px;
+    margin-top: 442px;
+    width: 360px;
+    height: 14px;
+}
+
+.ReplicaNode_row2_bar_fill {
+    margin-left: 730px;
+    margin-top: 442px;
+    width: 262px;
+    height: 14px;
+}
+
+.ReplicaNode_row3 {
+    margin-left: 340px;
+    margin-top: 478px;
+    width: 1240px;
+    height: 50px;
+}
+
+.ReplicaNode_row3_avatar {
+    margin-left: 410px;
+    margin-top: 483px;
+    width: 42px;
+    height: 42px;
+}
+
+.ReplicaNode_row3_rank {
+    margin-left: 350px;
+    margin-top: 488px;
+    width: 50px;
+    height: 30px;
+}
+
+.ReplicaNode_row3_name {
+    margin-left: 465px;
+    margin-top: 488px;
+    width: 250px;
+    height: 30px;
+}
+
+.ReplicaNode_row3_dmg {
+    margin-left: 1110px;
+    margin-top: 488px;
+    width: 150px;
+    height: 30px;
+}
+
+.ReplicaNode_row3_bar_bg {
+    margin-left: 730px;
+    margin-top: 496px;
+    width: 360px;
+    height: 14px;
+}
+
+.ReplicaNode_row3_bar_fill {
+    margin-left: 730px;
+    margin-top: 496px;
+    width: 226px;
+    height: 14px;
+}
+
+.ReplicaNode_row4 {
+    margin-left: 340px;
+    margin-top: 532px;
+    width: 1240px;
+    height: 50px;
+}
+
+.ReplicaNode_row4_avatar {
+    margin-left: 410px;
+    margin-top: 537px;
+    width: 42px;
+    height: 42px;
+}
+
+.ReplicaNode_row4_rank {
+    margin-left: 350px;
+    margin-top: 542px;
+    width: 50px;
+    height: 30px;
+}
+
+.ReplicaNode_row4_name {
+    margin-left: 465px;
+    margin-top: 542px;
+    width: 250px;
+    height: 30px;
+}
+
+.ReplicaNode_row4_dmg {
+    margin-left: 1110px;
+    margin-top: 542px;
+    width: 150px;
+    height: 30px;
+}
+
+.ReplicaNode_row4_bar_bg {
+    margin-left: 730px;
+    margin-top: 550px;
+    width: 360px;
+    height: 14px;
+}
+
+.ReplicaNode_row4_bar_fill {
+    margin-left: 730px;
+    margin-top: 550px;
+    width: 180px;
+    height: 14px;
+}
+
+.ReplicaNode_reward_panel {
+    margin-left: 320px;
+    margin-top: 630px;
+    width: 1280px;
+    height: 250px;
+}
+
+.ReplicaNode_reward_title {
+    margin-left: 860px;
+    margin-top: 646px;
+    width: 200px;
+    height: 36px;
+}
+
+.ReplicaNode_unlock_banner {
+    margin-left: 1240px;
+    margin-top: 646px;
+    width: 340px;
+    height: 36px;
+}
+
+.ReplicaNode_diamond_group {
+    margin-left: 350px;
+    margin-top: 696px;
+    width: 600px;
+    height: 174px;
+}
+
+.ReplicaNode_normal_group {
+    margin-left: 970px;
+    margin-top: 696px;
+    width: 610px;
+    height: 174px;
+}
+
+.ReplicaNode_diamond_title {
+    margin-left: 370px;
+    margin-top: 712px;
+    width: 560px;
+    height: 30px;
+}
+
+.ReplicaNode_normal_title {
+    margin-left: 990px;
+    margin-top: 712px;
+    width: 570px;
+    height: 30px;
+}
+
+.ReplicaNode_diamond_1 {
+    margin-left: 375px;
+    margin-top: 744px;
+    width: 170px;
+    height: 112px;
+}
+
+.ReplicaNode_diamond_2 {
+    margin-left: 565px;
+    margin-top: 744px;
+    width: 170px;
+    height: 112px;
+}
+
+.ReplicaNode_diamond_3 {
+    margin-left: 755px;
+    margin-top: 744px;
+    width: 170px;
+    height: 112px;
+}
+
+.ReplicaNode_normal_exp {
+    margin-left: 1060px;
+    margin-top: 744px;
+    width: 200px;
+    height: 112px;
+}
+
+.ReplicaNode_normal_fruit {
+    margin-left: 1290px;
+    margin-top: 744px;
+    width: 200px;
+    height: 112px;
+}
+
+.ReplicaNode_button_bar {
+    margin-left: 320px;
+    margin-top: 900px;
+    width: 1280px;
+    height: 110px;
+}
+
+.ReplicaNode_primary_button {
+    margin-left: 800px;
+    margin-top: 923px;
+    width: 320px;
+    height: 64px;
+}
+
+.ReplicaNode_secondary_button {
+    margin-left: 1340px;
+    margin-top: 923px;
+    width: 240px;
+    height: 64px;
+}
+
+.ReplicaLabel {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: center;
+    text-overflow: shrink;
+}

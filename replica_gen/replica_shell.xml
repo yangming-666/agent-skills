@@ -1,0 +1,162 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="file://{resources}/styles/custom_game/replica_shell.css" />
+    </styles>
+    <Panel class="ReplicaHost">
+        <Panel id="ReplicaCanvas" class="ReplicaCanvas">
+            <Panel id="Node_bg_overlay" class="ReplicaNode_bg_overlay">
+            </Panel>
+            <Panel id="Node_main_panel" class="ReplicaNode_main_panel">
+            </Panel>
+            <Panel id="Node_summary_card" class="ReplicaNode_summary_card">
+            </Panel>
+            <Panel id="Node_result_title" class="ReplicaNode_result_title">
+                <Label class="ReplicaLabel" text="胜利" />
+            </Panel>
+            <Panel id="Node_stage_name" class="ReplicaNode_stage_name">
+                <Label class="ReplicaLabel" text="第 5 关：烈焰峡谷" />
+            </Panel>
+            <Panel id="Node_remain_hp" class="ReplicaNode_remain_hp">
+                <Label class="ReplicaLabel" text="剩余血量 72%" />
+            </Panel>
+            <Panel id="Node_rating_container" class="ReplicaNode_rating_container">
+            </Panel>
+            <Panel id="Node_rating_label" class="ReplicaNode_rating_label">
+                <Label class="ReplicaLabel" text="评级" />
+            </Panel>
+            <Panel id="Node_rating_stars" class="ReplicaNode_rating_stars">
+                <Label class="ReplicaLabel" text="★★☆" />
+            </Panel>
+            <Panel id="Node_rating_desc" class="ReplicaNode_rating_desc">
+                <Label class="ReplicaLabel" text="2星（80%~94%）" />
+            </Panel>
+            <Panel id="Node_damage_panel" class="ReplicaNode_damage_panel">
+            </Panel>
+            <Panel id="Node_damage_title" class="ReplicaNode_damage_title">
+                <Label class="ReplicaLabel" text="输出统计" />
+            </Panel>
+            <Panel id="Node_row1" class="ReplicaNode_row1">
+            </Panel>
+            <Panel id="Node_row1_avatar" class="ReplicaNode_row1_avatar">
+                <Label class="ReplicaLabel" text="头像" />
+            </Panel>
+            <Panel id="Node_row1_rank" class="ReplicaNode_row1_rank">
+                <Label class="ReplicaLabel" text="1" />
+            </Panel>
+            <Panel id="Node_row1_name" class="ReplicaNode_row1_name">
+                <Label class="ReplicaLabel" text="火女" />
+            </Panel>
+            <Panel id="Node_row1_dmg" class="ReplicaNode_row1_dmg">
+                <Label class="ReplicaLabel" text="12.3M" />
+            </Panel>
+            <Panel id="Node_row1_mvp" class="ReplicaNode_row1_mvp">
+                <Label class="ReplicaLabel" text="MVP" />
+            </Panel>
+            <Panel id="Node_row1_bar_bg" class="ReplicaNode_row1_bar_bg">
+            </Panel>
+            <Panel id="Node_row1_bar_fill" class="ReplicaNode_row1_bar_fill">
+            </Panel>
+            <Panel id="Node_row2" class="ReplicaNode_row2">
+            </Panel>
+            <Panel id="Node_row2_avatar" class="ReplicaNode_row2_avatar">
+                <Label class="ReplicaLabel" text="头像" />
+            </Panel>
+            <Panel id="Node_row2_rank" class="ReplicaNode_row2_rank">
+                <Label class="ReplicaLabel" text="2" />
+            </Panel>
+            <Panel id="Node_row2_name" class="ReplicaNode_row2_name">
+                <Label class="ReplicaLabel" text="剑圣" />
+            </Panel>
+            <Panel id="Node_row2_dmg" class="ReplicaNode_row2_dmg">
+                <Label class="ReplicaLabel" text="10.1M" />
+            </Panel>
+            <Panel id="Node_row2_bar_bg" class="ReplicaNode_row2_bar_bg">
+            </Panel>
+            <Panel id="Node_row2_bar_fill" class="ReplicaNode_row2_bar_fill">
+            </Panel>
+            <Panel id="Node_row3" class="ReplicaNode_row3">
+            </Panel>
+            <Panel id="Node_row3_avatar" class="ReplicaNode_row3_avatar">
+                <Label class="ReplicaLabel" text="头像" />
+            </Panel>
+            <Panel id="Node_row3_rank" class="ReplicaNode_row3_rank">
+                <Label class="ReplicaLabel" text="3" />
+            </Panel>
+            <Panel id="Node_row3_name" class="ReplicaNode_row3_name">
+                <Label class="ReplicaLabel" text="宙斯" />
+            </Panel>
+            <Panel id="Node_row3_dmg" class="ReplicaNode_row3_dmg">
+                <Label class="ReplicaLabel" text="8.7M" />
+            </Panel>
+            <Panel id="Node_row3_bar_bg" class="ReplicaNode_row3_bar_bg">
+            </Panel>
+            <Panel id="Node_row3_bar_fill" class="ReplicaNode_row3_bar_fill">
+            </Panel>
+            <Panel id="Node_row4" class="ReplicaNode_row4">
+            </Panel>
+            <Panel id="Node_row4_avatar" class="ReplicaNode_row4_avatar">
+                <Label class="ReplicaLabel" text="头像" />
+            </Panel>
+            <Panel id="Node_row4_rank" class="ReplicaNode_row4_rank">
+                <Label class="ReplicaLabel" text="4" />
+            </Panel>
+            <Panel id="Node_row4_name" class="ReplicaNode_row4_name">
+                <Label class="ReplicaLabel" text="小黑" />
+            </Panel>
+            <Panel id="Node_row4_dmg" class="ReplicaNode_row4_dmg">
+                <Label class="ReplicaLabel" text="6.2M" />
+            </Panel>
+            <Panel id="Node_row4_bar_bg" class="ReplicaNode_row4_bar_bg">
+            </Panel>
+            <Panel id="Node_row4_bar_fill" class="ReplicaNode_row4_bar_fill">
+            </Panel>
+            <Panel id="Node_reward_panel" class="ReplicaNode_reward_panel">
+            </Panel>
+            <Panel id="Node_reward_title" class="ReplicaNode_reward_title">
+                <Label class="ReplicaLabel" text="通关奖励" />
+            </Panel>
+            <Panel id="Node_unlock_banner" class="ReplicaNode_unlock_banner">
+                <Label class="ReplicaLabel" text="首通解锁：第 6 关" />
+            </Panel>
+            <Panel id="Node_diamond_group" class="ReplicaNode_diamond_group">
+            </Panel>
+            <Panel id="Node_normal_group" class="ReplicaNode_normal_group">
+            </Panel>
+            <Panel id="Node_diamond_title" class="ReplicaNode_diamond_title">
+                <Label class="ReplicaLabel" text="星级一次性奖励（钻石）" />
+            </Panel>
+            <Panel id="Node_normal_title" class="ReplicaNode_normal_title">
+                <Label class="ReplicaLabel" text="普通奖励" />
+            </Panel>
+            <Panel id="Node_diamond_1" class="ReplicaNode_diamond_1">
+                <Label class="ReplicaLabel" text="1星奖励
+100钻" />
+            </Panel>
+            <Panel id="Node_diamond_2" class="ReplicaNode_diamond_2">
+                <Label class="ReplicaLabel" text="2星奖励
+100钻" />
+            </Panel>
+            <Panel id="Node_diamond_3" class="ReplicaNode_diamond_3">
+                <Label class="ReplicaLabel" text="3星奖励
+100钻" />
+            </Panel>
+            <Panel id="Node_normal_exp" class="ReplicaNode_normal_exp">
+                <Label class="ReplicaLabel" text="经验值
+x300" />
+            </Panel>
+            <Panel id="Node_normal_fruit" class="ReplicaNode_normal_fruit">
+                <Label class="ReplicaLabel" text="专属能量果实
+x1" />
+            </Panel>
+            <Panel id="Node_button_bar" class="ReplicaNode_button_bar">
+            </Panel>
+            <Panel id="Node_primary_button" class="ReplicaNode_primary_button">
+                <Label class="ReplicaLabel" text="继续下一关" />
+            </Panel>
+            <Panel id="Node_secondary_button" class="ReplicaNode_secondary_button">
+                <Label class="ReplicaLabel" text="返回大厅" />
+            </Panel>
+        </Panel>
+    </Panel>
+</root>
