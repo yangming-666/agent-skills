@@ -1,6 +1,6 @@
 > **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).
 
-# Skills
+# Agent Skills — Personal Fork
 Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.
 
 For more information, check out:
@@ -95,6 +95,6 @@ Skills are a great way to teach Claude how to get better at using specific piece
 
 ## About this fork
 
-This is `yangming-666/skills`, a personal fork of [anthropics/skills](https://github.com/anthropics/skills). Upstream attribution and per-directory licenses remain authoritative. The Dota 2 skill additions and `replica_gen/` are local additions, not upstream-supported features.
+This is `yangming-666/agent-skills`, a personal fork of [anthropics/skills](https://github.com/anthropics/skills). Upstream attribution and per-directory licenses remain authoritative. The Dota 2 skill additions and `replica_gen/` are local additions, not upstream-supported features.
 
 The 2026-10 maintenance pass restores corrupted files from the exact historical `ac4f4d1` blobs where available. It does not upgrade the repository to a newer upstream release. See [contribution guidelines](CONTRIBUTING.md) and preserve [third-party notices](THIRD_PARTY_NOTICES.md).
